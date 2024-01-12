@@ -1,16 +1,21 @@
-# This is a sample Python script.
+# Сбор и разметка данных (семинары)
+# Урок 5. Scrapy
+# Задание
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# 1. Найдите сайт, содержащий интересующий вас список или каталог. Это может быть список книг, фильмов, спортивных
+#    команд или что-то еще, что вас заинтересовало.
+# 2. Создайте новый проект Scrapy и определите нового паука. С помощью атрибута start_urls укажите URL выбранной
+#    вами веб-страницы.
+# 3. Определите метод парсинга для извлечения интересующих вас данных. Используйте селекторы XPath или CSS для
+#    навигации по HTML и извлечения данных. Возможно, потребуется извлечь данные с нескольких страниц или перейти
+#    по ссылкам на другие страницы.
+# 4. Сохраните извлеченные данные в структурированном формате. Вы можете использовать оператор yield для возврата
+#    данных из паука, которые Scrapy может записать в файл в выбранном вами формате (например, JSON или CSV).
+# 5. Конечным результатом работы должен быть код Scrapy Spider, а также пример выходных данных. Не забывайте соблюдать
+#    правила robots.txt и условия обслуживания веб-сайта, а также ответственно подходите к использованию веб-скрейпинга.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+import scrapy
 
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    print('Hi!')
