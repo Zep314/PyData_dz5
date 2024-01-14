@@ -18,6 +18,21 @@
 
 ### Решение
 
+Устанавливаем scrapy, и создаем новый проект
+
+    pip install scrapy
+    scrapy startproject jofel
+
+Генерируем нового паука
+
+    cd jofel/jofel/spiders/
+    scrapy genspider products "jofel.ru/catalog/"
+
+Запускаем scrapy shell
+
+    cd Work/Python/Data/PyData_dz5/
+    source .venv/bin/activate
+    scrapy shell
 
 Решение предоставлено в файле *[main.py](main.py)*
 

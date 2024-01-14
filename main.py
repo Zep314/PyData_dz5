@@ -17,5 +17,7 @@
 
 import scrapy
 
+TARGET_URL = 'https://jofel.ru/'
+
 if __name__ == '__main__':
     print('Hi!')
