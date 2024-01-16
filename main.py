@@ -15,9 +15,7 @@
 #    правила robots.txt и условия обслуживания веб-сайта, а также ответственно подходите к использованию веб-скрейпинга.
 
 
-import scrapy
-
 TARGET_URL = 'https://jofel.ru/'
 
 if __name__ == '__main__':
-    print('Hi!')
+    print('See README.md')
